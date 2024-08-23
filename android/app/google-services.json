@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1038720531602",
+    "project_id": "noxblog-22069",
+    "storage_bucket": "noxblog-22069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038720531602:android:98f6888b2507077e36ba4b",
+        "android_client_info": {
+          "package_name": "com.example.noxblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038720531602-70l3h66ro0otinvpn78ff93ajkhh7viq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.noxblog",
+            "certificate_hash": "802d320ea745e169467b5ca67adb0e797d7c1963"
+          }
+        },
+        {
+          "client_id": "1038720531602-ub2t7iugnrdvlv74dqk5ajqjps8j1m7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRnfa_hJyg2EGI61Is3XI1YPPzDqHspOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038720531602-ub2t7iugnrdvlv74dqk5ajqjps8j1m7u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1038720531602-jfmsh1o45qdjjlhq1rbfulhc7n8ekrj4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.noxblog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
