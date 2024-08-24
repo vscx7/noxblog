@@ -21,7 +21,7 @@ class LoginScreen extends ConsumerWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Image.asset(
-          Constants.logoPath,
+          Constants.loginEmotePath,
           height: 40,
         ),
         actions: [
@@ -53,7 +53,7 @@ class LoginScreen extends ConsumerWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Image.asset(
-                    Constants.loginEmotePath,
+                    Constants.logoPath,
                     height: 450,
                   ),
                 ),
