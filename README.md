@@ -1,16 +1,141 @@
-# noxblog
+# Noxblog
 
-A new Flutter project.
+Noxblog is a mobile blogging application inspired by Reddit, developed during a mobile development internship under Zidio Development. This app allows users to interact with a variety of blog posts, create communities, and engage with other users in a social setting. 
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Authentication
+- **Google Sign-In**: Users can log in to the app using their Google accounts.
 
-A few resources to get you started if this is your first Flutter project:
+### Home Screen
+- **View Posts**: Displays a feed of posts from various communities.
+- **Upvote/Downvote**: Users can upvote or downvote posts.
+- **Search Bar**: Quickly search for posts, communities, or users.
+- **Commenting**: Users can comment on posts to engage with other users.
+- **Dark/Light Mode**: User can toggle between dark and light mode.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Community Management
+- **Create Community**: Users can create new communities around specific topics.
+- **Add Moderators**: Community creators can assign moderators to help manage the community.
+  
+### User Profile
+- **Edit Profile**: Users can update their profile details, such as username, bio, and profile picture.
+- **Logout**: Users can log out from the side menu bar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers s,
-samples, guidance on mobile development, and a full API reference.
+### Post Creation
+- **Create New Post**: 
+  - **Image Post**: Create a post with an image and a title.
+  - **Link Post**: Create a post by sharing a link with a title.
+  - **Text Post**: Create a post with text content and a title.
+  - **Community Selection**: Users can select a community to post in.
+
+## Screenshots
+
+Include some screenshots of your app here. These might include the login screen, home screen, post creation screen, and any other key screens.
+
+## Installation
+
+To run the Noxblog app locally, follow these steps:
+
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed.
+- [Firebase CLI](https://firebase.google.com/docs/cli) set up with a Firebase project.
+- An Android/iOS emulator or a physical device.
+
+### Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/noxblog.git
+    cd noxblog
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Firebase Setup:**
+    - Ensure your Firebase project is configured with the Google sign-in method enabled.
+    - Update the `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) files in their respective directories (`android/app/` and `ios/Runner/`).
+
+4. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## Folder Structure
+
+Here’s an overview of the folder structure used in this project:
+
+```bash
+## Folder Structure
+
+Here’s an overview of the folder structure used in this project:
+
+```bash
+noxblog/
+├── android/
+├── assets/
+├── build/
+├── ios/
+├── lib/
+│   ├── core/
+│   │   ├── common/
+│   │   ├── constants/
+│   │   ├── enums/
+│   │   ├── providers/
+│   │   ├── failure.dart
+│   │   ├── type_defs.dart
+│   │   └── utils.dart
+│   ├── features/
+│   │   ├── auth/
+│   │   ├── community/
+│   │   ├── feed/
+│   │   ├── home/
+│   │   ├── post/
+│   │   └── user_profile/
+│   ├── models/
+│   ├── responsive/
+│   ├── theme/
+│   ├── firebase_options.dart
+│   ├── main.dart
+│   └── router.dart
+├── linux/
+├── macos/
+├── web/
+├── .dart_tool/
+├── .idea/
+├── .flutter-plugins
+├── .flutter-plugins-dependencies
+└── test/
+```
+
+### Contributing
+If you'd like to contribute to Noxblog, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+### Acknowledgments
+Inspired by Reddit.
+Developed during an internship with Zidio Development.
+
+#### Our team
+
+Vishal Singh
+chaudharyvisha0457@gmail.com
+
+Nabhonil Bhattacharjee
+nabhonilbhattacharjee@gmail.com
+
+Jagadeesh S
+sjagadeesh2803@gmail.com
+
+Jeevamani K
+jeevakrish479@gmail.com
+
+Vasudevan S
+s.vasudevan003@gmail.com
+
+### For any inquiries, please contact the project maintainers at email id given above.
