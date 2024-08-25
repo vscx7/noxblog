@@ -30,11 +30,15 @@ Noxblog is a mobile blogging application inspired by Reddit, developed during a 
   - **Community Selection**: Users can select a community to post in.
 
 ## Screenshots
-![Login Screen](assets/snapshots/login_screen1.png)
-![Home Screen](assets/snapshots/home_screen1.png), ![light mode](assets/snapshots/home_screen2.png).
-![Community Screen](assets/snapshots/community_screen1.png), ![2](assets/snapshots/community_screen2.png).
-![create post](assets/snapshots/text_post.png), ![post type](assets/snapshots/create_post.png).
-![toggle theme](assets/snapshots/lightmode_toggle.png).
+- [Login Screen](assets/snapshots/login_screen1.png)
+
+- [Home Screen](assets/snapshots/home_screen1.png), emsp [light mode](assets/snapshots/home_screen2.png).
+
+- [Community Screen](assets/snapshots/community_screen1.png), emsp [2](assets/snapshots/community_screen2.png).
+
+- [create post](assets/snapshots/text_post.png), emsp [post type](assets/snapshots/create_post.png).
+
+- [toggle theme](assets/snapshots/lightmode_toggle.png).
 
 ## Installation
 
